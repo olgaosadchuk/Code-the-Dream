@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: Gainsboro;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+.coffee-list {
+    list-style: none;
+    padding: 0;
+}
+
+.coffee-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.coffee-item img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.coffee-item-content {
+    display: none;
+}
+
+.coffee-item-content p {
+    margin: 0;
+}
+
+.coffee-item:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
